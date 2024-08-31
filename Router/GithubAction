@@ -1,0 +1,6 @@
+- name: 自定义插件
+             run: |
+                 cd package
+                 mkdir openwrt-packages
+                 cd openwrt-packages
+https://github.com/psantiagoantony/Openwrt-packages.git
