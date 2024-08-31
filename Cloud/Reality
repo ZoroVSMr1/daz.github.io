@@ -1,0 +1,11 @@
+apt update -y 
+
+apt install curl wget -y
+
+bash <(curl -Ls https://raw.githubusercontent.com/FranzKafkaYu/x-ui/master/install.sh)
+
+echo "net.core.default_qdisc=fq" >> /etc/sysctl.conf
+echo "net.ipv4.tcp_congestion_control=bbr" >> /etc/sysctl.conf
+sysctl -p
+
+L3LlfU3BODKHkaVva1ABOOlzDzcFlfcf
